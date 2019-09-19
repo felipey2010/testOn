@@ -84,13 +84,15 @@ main{
     padding: 12px;
     height: 36px;
     width: 190px;
-
 }
 .main-slider{
     width: 100%;
 }
+.slick-list{
+    width:100% !important;
+}
 button.slick-prev{
-    font-size: opx;
+    font-size: 0px;
     border: 0px;
     height: 51px;
     width:  26px;
@@ -102,7 +104,7 @@ button.slick-prev{
     left: 14%;
 }
 button.slick-next{
-    font-size: opx;
+    font-size: 0px;
     border: 0px;
     height: 51px;
     width:  26px;
@@ -112,4 +114,30 @@ button.slick-next{
     z-index: 9;
     top: 36%;
     right: 14%;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 94%;
+}
+.slick-dots li button{
+    font-size: 0;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots li{
+    padding-right: 10px;
+    display: inline-block;
+}
+li.slick-active button{
+    background: #00bca6;
 }
