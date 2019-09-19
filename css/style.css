@@ -13,10 +13,13 @@ ul{
     height: 60px;
     /*box-shadow: 0px 5px 3px #8b8b8b;*/
 }
-main{
+main, content{
     width: 980px;
     margin: 0 auto;
     position: relative;
+}
+.content h1{
+    text-align: center;
 }
 .col-100{
     width: 100%;
@@ -123,7 +126,7 @@ button.slick-next{
     width: 50%;
     position: absolute;
     left: 45%;
-    top: 94%;
+    top: 93%;
 }
 .slick-dots li button{
     font-size: 0;
