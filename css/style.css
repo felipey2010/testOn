@@ -144,3 +144,24 @@ button.slick-next{
 li.slick-active button{
     background: #00bca6;
 }
+.footer{
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+.footer.img{
+    height: 100px;
+    background-image: url(/img/lock.png);
+    background-repeat: no-repeat;
+}
+.space{
+    height:5%;
+    position: bottom;
+    background-color: transparent;
+    bottom: 0;
+}
